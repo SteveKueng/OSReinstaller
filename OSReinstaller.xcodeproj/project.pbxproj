@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5655A00F20A0DE7300EA1E24 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5655A00E20A0DE7300EA1E24 /* Cocoa.framework */; };
+		5655A01820A0DE7300EA1E24 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5655A01620A0DE7300EA1E24 /* Credits.rtf */; };
+		5655A01B20A0DE7300EA1E24 /* libpython2.7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5655A01A20A0DE7300EA1E24 /* libpython2.7.dylib */; };
+		5655A01D20A0DE7300EA1E24 /* main.py in Resources */ = {isa = PBXBuildFile; fileRef = 5655A01C20A0DE7300EA1E24 /* main.py */; };
+		5655A01F20A0DE7300EA1E24 /* AppDelegate.py in Resources */ = {isa = PBXBuildFile; fileRef = 5655A01E20A0DE7300EA1E24 /* AppDelegate.py */; };
+		5655A02220A0DE7300EA1E24 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5655A02020A0DE7300EA1E24 /* MainMenu.xib */; };
+		5655A02420A0DE7400EA1E24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5655A02320A0DE7400EA1E24 /* Assets.xcassets */; };
+		5655A02720A0DE7400EA1E24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5655A02620A0DE7400EA1E24 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5655A00B20A0DE7300EA1E24 /* OSReinstaller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSReinstaller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5655A00E20A0DE7300EA1E24 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5655A01120A0DE7300EA1E24 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5655A01220A0DE7300EA1E24 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5655A01320A0DE7300EA1E24 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5655A01720A0DE7300EA1E24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5655A01A20A0DE7300EA1E24 /* libpython2.7.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpython2.7.dylib; path = /System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/config/libpython2.7.dylib; sourceTree = "<absolute>"; };
+		5655A01C20A0DE7300EA1E24 /* main.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
+		5655A01E20A0DE7300EA1E24 /* AppDelegate.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = AppDelegate.py; sourceTree = "<group>"; };
+		5655A02120A0DE7300EA1E24 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5655A02320A0DE7400EA1E24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5655A02520A0DE7400EA1E24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5655A02620A0DE7400EA1E24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5655A00820A0DE7300EA1E24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5655A01B20A0DE7300EA1E24 /* libpython2.7.dylib in Frameworks */,
+				5655A00F20A0DE7300EA1E24 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5655A00220A0DE7300EA1E24 = {
+			isa = PBXGroup;
+			children = (
+				5655A01420A0DE7300EA1E24 /* OSReinstaller */,
+				5655A00D20A0DE7300EA1E24 /* Frameworks */,
+				5655A00C20A0DE7300EA1E24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5655A00C20A0DE7300EA1E24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5655A00B20A0DE7300EA1E24 /* OSReinstaller.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5655A00D20A0DE7300EA1E24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5655A00E20A0DE7300EA1E24 /* Cocoa.framework */,
+				5655A01020A0DE7300EA1E24 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5655A01020A0DE7300EA1E24 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5655A01120A0DE7300EA1E24 /* AppKit.framework */,
+				5655A01220A0DE7300EA1E24 /* CoreData.framework */,
+				5655A01320A0DE7300EA1E24 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5655A01420A0DE7300EA1E24 /* OSReinstaller */ = {
+			isa = PBXGroup;
+			children = (
+				5655A01C20A0DE7300EA1E24 /* main.py */,
+				5655A01E20A0DE7300EA1E24 /* AppDelegate.py */,
+				5655A02020A0DE7300EA1E24 /* MainMenu.xib */,
+				5655A02320A0DE7400EA1E24 /* Assets.xcassets */,
+				5655A02520A0DE7400EA1E24 /* Info.plist */,
+				5655A02620A0DE7400EA1E24 /* main.m */,
+				5655A01920A0DE7300EA1E24 /* SharedLibraries */,
+				5655A01520A0DE7300EA1E24 /* Supporting Files */,
+			);
+			path = OSReinstaller;
+			sourceTree = "<group>";
+		};
+		5655A01520A0DE7300EA1E24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5655A01620A0DE7300EA1E24 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5655A01920A0DE7300EA1E24 /* SharedLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				5655A01A20A0DE7300EA1E24 /* libpython2.7.dylib */,
+			);
+			name = SharedLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5655A00A20A0DE7300EA1E24 /* OSReinstaller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5655A02A20A0DE7400EA1E24 /* Build configuration list for PBXNativeTarget "OSReinstaller" */;
+			buildPhases = (
+				5655A00720A0DE7300EA1E24 /* Sources */,
+				5655A00820A0DE7300EA1E24 /* Frameworks */,
+				5655A00920A0DE7300EA1E24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OSReinstaller;
+			productName = OSReinstaller;
+			productReference = 5655A00B20A0DE7300EA1E24 /* OSReinstaller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5655A00320A0DE7300EA1E24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Steve Küng";
+				TargetAttributes = {
+					5655A00A20A0DE7300EA1E24 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 5655A00620A0DE7300EA1E24 /* Build configuration list for PBXProject "OSReinstaller" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5655A00220A0DE7300EA1E24;
+			productRefGroup = 5655A00C20A0DE7300EA1E24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5655A00A20A0DE7300EA1E24 /* OSReinstaller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5655A00920A0DE7300EA1E24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5655A01820A0DE7300EA1E24 /* Credits.rtf in Resources */,
+				5655A01F20A0DE7300EA1E24 /* AppDelegate.py in Resources */,
+				5655A01D20A0DE7300EA1E24 /* main.py in Resources */,
+				5655A02220A0DE7300EA1E24 /* MainMenu.xib in Resources */,
+				5655A02420A0DE7400EA1E24 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5655A00720A0DE7300EA1E24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5655A02720A0DE7400EA1E24 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5655A01620A0DE7300EA1E24 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5655A01720A0DE7300EA1E24 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5655A02020A0DE7300EA1E24 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5655A02120A0DE7300EA1E24 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5655A02820A0DE7400EA1E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/Frameworks/Python.framework/Versions/2.7/lib/python2.7/config",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5655A02920A0DE7400EA1E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/Frameworks/Python.framework/Versions/2.7/lib/python2.7/config",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5655A02B20A0DE7400EA1E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GGNTTFQF3Z;
+				INFOPLIST_FILE = OSReinstaller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.srgssr.OSReinstaller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5655A02C20A0DE7400EA1E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GGNTTFQF3Z;
+				INFOPLIST_FILE = OSReinstaller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.srgssr.OSReinstaller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5655A00620A0DE7300EA1E24 /* Build configuration list for PBXProject "OSReinstaller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5655A02820A0DE7400EA1E24 /* Debug */,
+				5655A02920A0DE7400EA1E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5655A02A20A0DE7400EA1E24 /* Build configuration list for PBXNativeTarget "OSReinstaller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5655A02B20A0DE7400EA1E24 /* Debug */,
+				5655A02C20A0DE7400EA1E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5655A00320A0DE7300EA1E24 /* Project object */;
+}
