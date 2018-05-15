@@ -1,0 +1,9 @@
+build/
+OSReinstaller.xcodeproj/xcuserdata/*
+*.dmg
+*.pkg
+Packages/
+OSReinstaller.xcodeproj/project.xcworkspace/xcuserdata/*
+*.mk
+*.pyc
+.DS_Store

@@ -15,6 +15,8 @@
 		5655A02220A0DE7300EA1E24 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5655A02020A0DE7300EA1E24 /* MainMenu.xib */; };
 		5655A02420A0DE7400EA1E24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5655A02320A0DE7400EA1E24 /* Assets.xcassets */; };
 		5655A02720A0DE7400EA1E24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5655A02620A0DE7400EA1E24 /* main.m */; };
+		5655A06820A1C6FA00EA1E24 /* MainController.py in Resources */ = {isa = PBXBuildFile; fileRef = 5655A06720A1C6FA00EA1E24 /* MainController.py */; };
+		5698B43E20A97E10007331D1 /* ptyexec in Resources */ = {isa = PBXBuildFile; fileRef = 5698B43D20A97E10007331D1 /* ptyexec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		5655A02320A0DE7400EA1E24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5655A02520A0DE7400EA1E24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5655A02620A0DE7400EA1E24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5655A06720A1C6FA00EA1E24 /* MainController.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = MainController.py; sourceTree = "<group>"; };
+		5698B43D20A97E10007331D1 /* ptyexec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = ptyexec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +89,9 @@
 		5655A01420A0DE7300EA1E24 /* OSReinstaller */ = {
 			isa = PBXGroup;
 			children = (
+				5698B43D20A97E10007331D1 /* ptyexec */,
 				5655A01C20A0DE7300EA1E24 /* main.py */,
+				5655A06720A1C6FA00EA1E24 /* MainController.py */,
 				5655A01E20A0DE7300EA1E24 /* AppDelegate.py */,
 				5655A02020A0DE7300EA1E24 /* MainMenu.xib */,
 				5655A02320A0DE7400EA1E24 /* Assets.xcassets */,
@@ -170,7 +176,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5655A01820A0DE7300EA1E24 /* Credits.rtf in Resources */,
+				5698B43E20A97E10007331D1 /* ptyexec in Resources */,
 				5655A01F20A0DE7300EA1E24 /* AppDelegate.py in Resources */,
+				5655A06820A1C6FA00EA1E24 /* MainController.py in Resources */,
 				5655A01D20A0DE7300EA1E24 /* main.py in Resources */,
 				5655A02220A0DE7300EA1E24 /* MainMenu.xib in Resources */,
 				5655A02420A0DE7400EA1E24 /* Assets.xcassets in Resources */,
